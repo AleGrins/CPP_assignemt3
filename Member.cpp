@@ -78,7 +78,7 @@ void Member::removeFromFollowing(int index){ //remove member ID at given index f
     following.erase(following.begin() + index);
 }
 
-int Member::getFollower(int index){
+int Member::getFollower(int index){ //get specific ID from "followers" list
     return followers[index];
 }
 
