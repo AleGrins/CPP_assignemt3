@@ -20,5 +20,5 @@ class Member
         void addToFollowing(int ID); //add a member to "following"
         void removeFromFollowers(int index); //remove member at given index from "followers"
         void removeFromFollowing(int index); //remove member at given index from "following"
-        int getFollower(int index);
+        int getFollower(int index); //get specific ID from "followers" list
 };
